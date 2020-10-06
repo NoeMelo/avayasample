@@ -1,4 +1,4 @@
 <Response>
     <!-- Opcion 4, regresar al menu principal -->
-    <Redirect method="GET">http://tufileserver/InboundXML/main.xml</Redirect>
+    <Redirect method="GET">https://explame1testapp.herokuapp.com/xml/InboundXML/main.xml</Redirect>
 </Response>
