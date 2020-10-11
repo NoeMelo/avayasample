@@ -1,7 +1,9 @@
 <Response>
   <!-- InboundXML inicial -->
   <Gather method="GET" numDigits="1" finishOnKey="#" action="https://copersocialimpact.herokuapp.com/xml/InboundXML/BaseRedirect.xml">
-  	<Say voice="woman" language="es-us">Presiona UNO para dejar un mensaje, DOS para Iniciar una conferencia, TRES para escuchar un anuncio, CERO para hablar con un agente, CUATRO para repetir el menu.</Say>  
+  	<Say voice="woman" language="es-us">
+    Hola, COPER te da la bienvenida. Presiona UNO para grabar tu mensaje de recepción del mercado y la confirmación del estado del producto.
+    </Say>  
   </Gather>
   <Say voice="woman" language="es-us">Hasta luego</Say> 
 </Response>
